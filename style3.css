@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+/*共通部分*/
+
+html{
+font-size: 100%;
+}
+body {
+  background-color:  #f7c6bd;
+  font-family: serif;
+  text-align: center;
+}
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+p{
+  font-size: 30px;
+}
+li{
+  font-size: 20px;
+  margin-left: 5%;
+}
+ul{
+  display: flex;
+  justify-content: space-around;
+  margin-right: 5%;
+  list-style-type: none;
+}
+
+/*header*/
+.logo{
+  width: 200px;
+  margin-top:10px;
+}　　
+
+/*背景画像*/
+.big-bg{
+  background-position: center top;
+}
+
+#home{
+  background-image: url(home.jpg);
+  height: 120vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: cover;
+}
+
+/*home*/
+.page-title{
+  color:#fff;
+  font-size: 120px;
+  margin-top: 7%;
+  margin-right: 2%;
+}　
+
+
+/*article*/
+.intro p{
+  margin-top: 10%;
+}
+
+/*section*/
+
+h4{
+  text-align: center;
+  font-size: 40px;
+  background-color: #faa;
+  width: 430px;
+  margin-top: 150px;
+  margin-left: 500px;
+}
+
+h5{
+  font-size: 30px;
+  border-bottom: 7px dotted #ff2599;
+  max-width: 120px;
+  margin-left: 650px;
+}
+
+.photo{
+  display: grid;
+  margin-left: 10px;
+}
+
+.photo p{
+  font-size: 20px;
+}
+
+.photo a{
+  color: #0000b1;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+.photo a:hover{
+  color:#ff2599;
+}
+
+.instagram p{
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.instagram img{
+  max-width: 90%;
+  max-height: 90%;
+}
+
+
+/*aside*/
+.cafe{
+  text-align: center;
+  font-family: cursive;
+  display: flex;
+  justify-content:center;
+}
+.cafe img{
+  max-width: 30%;
+  max-height: 30%;
+  margin-bottom: 10%;
+}
+.inf h7{
+  margin-top: 10px;
+  font-size: 25px;
+  width: 500px;
+  line-height: 1.7;
+}
+.inf ul{
+  line-height:2.6;
+  display: contents;
+  font-size: 10px;
+}
+.inf a{
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+
+/*footer*/
+
+h6{
+  font-size: 30px;
+  font-family: cursive;
+  margin-left: 200px;
+}
+
+.acsess {
+  background-color: #ff6c94;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.acsess img{
+  max-width: 170%;
+  max-height: 170%;
+  margin-top: 45px;
+  margin-right: 10px;
+}
+.pic img{
+  max-width: 500%;
+  max-height: 500%;
+  margin-left: 200px;
+}
+
+
+.fin{
+  background-color: #ddd;
+}
+.fin p{
+  font-size: 1rem;
+}
